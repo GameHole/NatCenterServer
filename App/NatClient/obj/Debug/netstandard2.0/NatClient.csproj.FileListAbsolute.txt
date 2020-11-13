@@ -1,0 +1,8 @@
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\bin\Debug\netstandard2.0\NatClient.deps.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\bin\Debug\netstandard2.0\NatClient.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\bin\Debug\netstandard2.0\NatClient.pdb
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\obj\Debug\netstandard2.0\NatClient.csprojAssemblyReference.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\obj\Debug\netstandard2.0\NatClient.AssemblyInfoInputs.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\obj\Debug\netstandard2.0\NatClient.AssemblyInfo.cs
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\obj\Debug\netstandard2.0\NatClient.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\obj\Debug\netstandard2.0\NatClient.pdb

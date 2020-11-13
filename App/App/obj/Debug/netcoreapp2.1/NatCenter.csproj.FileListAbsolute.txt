@@ -1,0 +1,13 @@
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\bin\Debug\netcoreapp2.1\NatCenter.deps.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\bin\Debug\netcoreapp2.1\NatCenter.runtimeconfig.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\bin\Debug\netcoreapp2.1\NatCenter.runtimeconfig.dev.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\bin\Debug\netcoreapp2.1\NatCenter.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\bin\Debug\netcoreapp2.1\NatCenter.pdb
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\bin\Debug\netcoreapp2.1\NatCore.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\bin\Debug\netcoreapp2.1\NatCore.pdb
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\obj\Debug\netcoreapp2.1\NatCenter.csprojAssemblyReference.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\obj\Debug\netcoreapp2.1\NatCenter.AssemblyInfoInputs.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\obj\Debug\netcoreapp2.1\NatCenter.AssemblyInfo.cs
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\obj\Debug\netcoreapp2.1\NatCenter.csproj.CopyComplete
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\obj\Debug\netcoreapp2.1\NatCenter.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\obj\Debug\netcoreapp2.1\NatCenter.pdb

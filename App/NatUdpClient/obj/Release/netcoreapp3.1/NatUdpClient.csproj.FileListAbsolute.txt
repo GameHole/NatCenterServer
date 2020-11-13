@@ -1,0 +1,14 @@
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatUdpClient\obj\Release\netcoreapp3.1\NatUdpClient.csprojAssemblyReference.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatUdpClient\obj\Release\netcoreapp3.1\NatUdpClient.AssemblyInfoInputs.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatUdpClient\obj\Release\netcoreapp3.1\NatUdpClient.AssemblyInfo.cs
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatUdpClient\bin\Release\netcoreapp3.1\NatUdpClient.exe
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatUdpClient\bin\Release\netcoreapp3.1\NatUdpClient.deps.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatUdpClient\bin\Release\netcoreapp3.1\NatUdpClient.runtimeconfig.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatUdpClient\bin\Release\netcoreapp3.1\NatUdpClient.runtimeconfig.dev.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatUdpClient\bin\Release\netcoreapp3.1\NatUdpClient.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatUdpClient\bin\Release\netcoreapp3.1\NatUdpClient.pdb
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatUdpClient\bin\Release\netcoreapp3.1\NatCore.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatUdpClient\bin\Release\netcoreapp3.1\NatCore.pdb
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatUdpClient\obj\Release\netcoreapp3.1\NatUdpClient.csproj.CopyComplete
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatUdpClient\obj\Release\netcoreapp3.1\NatUdpClient.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatUdpClient\obj\Release\netcoreapp3.1\NatUdpClient.pdb

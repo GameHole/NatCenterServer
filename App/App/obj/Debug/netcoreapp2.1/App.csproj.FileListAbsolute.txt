@@ -1,0 +1,11 @@
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\bin\Debug\netcoreapp2.1\App.deps.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\bin\Debug\netcoreapp2.1\App.runtimeconfig.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\bin\Debug\netcoreapp2.1\App.runtimeconfig.dev.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\bin\Debug\netcoreapp2.1\App.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\bin\Debug\netcoreapp2.1\App.pdb
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\obj\Debug\netcoreapp2.1\App.csprojAssemblyReference.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\obj\Debug\netcoreapp2.1\App.csproj.CoreCompileInputs.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\obj\Debug\netcoreapp2.1\App.AssemblyInfoInputs.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\obj\Debug\netcoreapp2.1\App.AssemblyInfo.cs
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\obj\Debug\netcoreapp2.1\App.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\App\obj\Debug\netcoreapp2.1\App.pdb
