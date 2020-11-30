@@ -4,6 +4,10 @@ using System.Text;
 
 namespace NatCore
 {
+    public unsafe static class SizeOf<T>where T : unmanaged
+    {
+        public static int value => sizeof(T);
+    }
     public unsafe struct Head
     {
         public static int size => sizeof(Head);

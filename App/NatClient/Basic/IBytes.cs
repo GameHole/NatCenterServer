@@ -53,5 +53,71 @@ namespace NatCore
                 return ret;
             }
         }
+        public static unsafe bool TryGet<T>(this byte[] value,ref int offset,out T v)where T : unmanaged
+        {
+            int size = sizeof(T);
+            v = default;
+            if (value.Length - offset < size)
+                return false;
+            fixed (byte* m = value)
+            {
+                v = *(T*)(m + offset);
+                offset += size;
+                return true;
+            }
+        }
+        public static unsafe bool TryGet<T>(this byte[] value, int offset, out T v) where T : unmanaged
+        {
+            int size = sizeof(T);
+            v = default;
+            if (value.Length - offset < size)
+                return false;
+            fixed (byte* m = value)
+            {
+                v = *(T*)(m + offset);
+                return true;
+            }
+        }
+        public static unsafe bool TrySet<T>(this byte[] value, ref int offset,T v) where T : unmanaged
+        {
+            int size = sizeof(T);
+            if (value.Length - offset < size)
+                return false;
+            fixed (byte* m = value)
+            {
+                *(T*)(m + offset) = v;
+                offset += size;
+                return true;
+            }
+        }
+        public static string ToHexStr(this byte[] value)
+        {
+            StringBuilder builder = new StringBuilder();
+            for (int i = 0; i < value.Length; i++)
+            {
+                string a = value[i].ToString("X");
+                if (value[i] < 0x10)
+                    a = "0" + a;
+                builder.Append(a);
+                builder.Append(' ');
+            }
+            return builder.ToString();
+        }
+        public static string ToHexStr(this byte[] value,int offset,int size)
+        {
+            StringBuilder builder = new StringBuilder();
+            int n = size + offset;
+            for (int i = offset; i < n; i++)
+            {
+                if (i >= value.Length)
+                    break;
+                string a = value[i].ToString("X");
+                if (value[i] < 0x10)
+                    a = "0" + a;
+                builder.Append(a);
+                builder.Append(' ');
+            }
+            return builder.ToString();
+        }
     }
 }

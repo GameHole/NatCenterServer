@@ -1,0 +1,14 @@
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\bin\Release\netcoreapp3.1\RouteCenter.exe
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\bin\Release\netcoreapp3.1\RouteCenter.deps.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\bin\Release\netcoreapp3.1\RouteCenter.runtimeconfig.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\bin\Release\netcoreapp3.1\RouteCenter.runtimeconfig.dev.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\bin\Release\netcoreapp3.1\RouteCenter.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\bin\Release\netcoreapp3.1\RouteCenter.pdb
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\bin\Release\netcoreapp3.1\NatCore.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\bin\Release\netcoreapp3.1\NatCore.pdb
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\obj\Release\netcoreapp3.1\RouteCenter.csprojAssemblyReference.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\obj\Release\netcoreapp3.1\RouteCenter.AssemblyInfoInputs.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\obj\Release\netcoreapp3.1\RouteCenter.AssemblyInfo.cs
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\obj\Release\netcoreapp3.1\RouteCenter.csproj.CopyComplete
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\obj\Release\netcoreapp3.1\RouteCenter.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\obj\Release\netcoreapp3.1\RouteCenter.pdb

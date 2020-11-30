@@ -5,11 +5,19 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NatCenter", "App\NatCenter.csproj", "{BF4E86E2-05FA-401B-A4F0-CF698543A1BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NatCore", "NatClient\NatCore.csproj", "{D494DCBF-46EA-4600-8B6A-99BE441FDB48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NatCore", "NatClient\NatCore.csproj", "{D494DCBF-46EA-4600-8B6A-99BE441FDB48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NatServer", "NatServer\NatServer.csproj", "{9E67C2E8-56A4-4D69-B0E7-B79755F9E7B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NatServer", "NatServer\NatServer.csproj", "{9E67C2E8-56A4-4D69-B0E7-B79755F9E7B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NatUdpClient", "NatUdpClient\NatUdpClient.csproj", "{6E9F3292-9EB0-4B41-B654-15DFFC8A4D86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NatUdpClient", "NatUdpClient\NatUdpClient.csproj", "{6E9F3292-9EB0-4B41-B654-15DFFC8A4D86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouteCenter", "L4dRotueServer\RouteCenter.csproj", "{E3115ECE-CC4F-43DC-A1C6-20FD82E5B402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteClient", "RouteClient\RouteClient.csproj", "{0083BBCD-CE23-4F69-AA4B-4F82D05D3F5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestServer", "TestServer\TestServer.csproj", "{24B5E0F7-14A0-487F-9EDE-B60D7DDEC32E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "TestClient\TestClient.csproj", "{E2F766C9-9BD7-4265-AA2B-99235E199BCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{6E9F3292-9EB0-4B41-B654-15DFFC8A4D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E9F3292-9EB0-4B41-B654-15DFFC8A4D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E9F3292-9EB0-4B41-B654-15DFFC8A4D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3115ECE-CC4F-43DC-A1C6-20FD82E5B402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3115ECE-CC4F-43DC-A1C6-20FD82E5B402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3115ECE-CC4F-43DC-A1C6-20FD82E5B402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3115ECE-CC4F-43DC-A1C6-20FD82E5B402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0083BBCD-CE23-4F69-AA4B-4F82D05D3F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0083BBCD-CE23-4F69-AA4B-4F82D05D3F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0083BBCD-CE23-4F69-AA4B-4F82D05D3F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0083BBCD-CE23-4F69-AA4B-4F82D05D3F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B5E0F7-14A0-487F-9EDE-B60D7DDEC32E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B5E0F7-14A0-487F-9EDE-B60D7DDEC32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B5E0F7-14A0-487F-9EDE-B60D7DDEC32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B5E0F7-14A0-487F-9EDE-B60D7DDEC32E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F766C9-9BD7-4265-AA2B-99235E199BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F766C9-9BD7-4265-AA2B-99235E199BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F766C9-9BD7-4265-AA2B-99235E199BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F766C9-9BD7-4265-AA2B-99235E199BCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

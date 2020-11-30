@@ -1,0 +1,11 @@
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\bin\Release\netcoreapp3.1\L4dRotueServer.exe
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\bin\Release\netcoreapp3.1\L4dRotueServer.deps.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\bin\Release\netcoreapp3.1\L4dRotueServer.runtimeconfig.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\bin\Release\netcoreapp3.1\L4dRotueServer.runtimeconfig.dev.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\bin\Release\netcoreapp3.1\L4dRotueServer.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\bin\Release\netcoreapp3.1\L4dRotueServer.pdb
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\obj\Release\netcoreapp3.1\L4dRotueServer.csprojAssemblyReference.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\obj\Release\netcoreapp3.1\L4dRotueServer.AssemblyInfoInputs.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\obj\Release\netcoreapp3.1\L4dRotueServer.AssemblyInfo.cs
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\obj\Release\netcoreapp3.1\L4dRotueServer.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\L4dRotueServer\obj\Release\netcoreapp3.1\L4dRotueServer.pdb

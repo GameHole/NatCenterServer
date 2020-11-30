@@ -1,0 +1,14 @@
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\TestClient\bin\Release\netcoreapp3.1\TestClient.exe
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\TestClient\bin\Release\netcoreapp3.1\TestClient.deps.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\TestClient\bin\Release\netcoreapp3.1\TestClient.runtimeconfig.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\TestClient\bin\Release\netcoreapp3.1\TestClient.runtimeconfig.dev.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\TestClient\bin\Release\netcoreapp3.1\TestClient.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\TestClient\bin\Release\netcoreapp3.1\TestClient.pdb
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\TestClient\bin\Release\netcoreapp3.1\NatCore.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\TestClient\bin\Release\netcoreapp3.1\NatCore.pdb
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\TestClient\obj\Release\netcoreapp3.1\TestClient.csprojAssemblyReference.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\TestClient\obj\Release\netcoreapp3.1\TestClient.AssemblyInfoInputs.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\TestClient\obj\Release\netcoreapp3.1\TestClient.AssemblyInfo.cs
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\TestClient\obj\Release\netcoreapp3.1\TestClient.csproj.CopyComplete
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\TestClient\obj\Release\netcoreapp3.1\TestClient.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\TestClient\obj\Release\netcoreapp3.1\TestClient.pdb

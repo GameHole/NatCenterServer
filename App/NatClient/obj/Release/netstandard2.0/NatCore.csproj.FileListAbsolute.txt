@@ -5,3 +5,4 @@ E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\bin\Release\netsta
 E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\bin\Release\netstandard2.0\NatCore.pdb
 E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\obj\Release\netstandard2.0\NatCore.dll
 E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\obj\Release\netstandard2.0\NatCore.pdb
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\obj\Release\netstandard2.0\NatCore.csprojAssemblyReference.cache

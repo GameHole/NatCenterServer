@@ -1,0 +1,14 @@
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\RouteClient\bin\Release\netcoreapp3.1\RouteClient.exe
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\RouteClient\bin\Release\netcoreapp3.1\RouteClient.deps.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\RouteClient\bin\Release\netcoreapp3.1\RouteClient.runtimeconfig.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\RouteClient\bin\Release\netcoreapp3.1\RouteClient.runtimeconfig.dev.json
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\RouteClient\bin\Release\netcoreapp3.1\RouteClient.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\RouteClient\bin\Release\netcoreapp3.1\RouteClient.pdb
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\RouteClient\bin\Release\netcoreapp3.1\NatCore.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\RouteClient\bin\Release\netcoreapp3.1\NatCore.pdb
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\RouteClient\obj\Release\netcoreapp3.1\RouteClient.AssemblyInfoInputs.cache
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\RouteClient\obj\Release\netcoreapp3.1\RouteClient.AssemblyInfo.cs
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\RouteClient\obj\Release\netcoreapp3.1\RouteClient.csproj.CopyComplete
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\RouteClient\obj\Release\netcoreapp3.1\RouteClient.dll
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\RouteClient\obj\Release\netcoreapp3.1\RouteClient.pdb
+E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\RouteClient\obj\Release\netcoreapp3.1\RouteClient.csprojAssemblyReference.cache

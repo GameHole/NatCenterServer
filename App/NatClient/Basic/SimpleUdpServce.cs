@@ -48,11 +48,12 @@ namespace NatCore
                         {
                             TestLog.Log($"ddd:{remoteEnd}");
                         }
-                        
+                        Console.WriteLine("SimpleUdpServce recv");
                         if (recv < Head.size) continue;
                         var head = buffer.Get<Head>(ref idx);
+                        Console.WriteLine($"SimpleUdpServce recv size ok mask ={ head.mark} vailed = {Head.defauleMark}");
                         if (head.mark != Head.defauleMark) continue;
-
+                        Console.WriteLine("SimpleUdpServce recv mask ok");
                         if (Msg.TryGetDealer(head.opcode, out IDealer dealer))
                         {
                             dealer.Deal(this, remoteEnd, buffer, idx);
