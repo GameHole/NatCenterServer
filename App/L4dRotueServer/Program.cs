@@ -10,7 +10,7 @@ namespace RouteCenter
     {
         static void Main(string[] args)
         {
-            ForTest(ref args);
+            //ForTest(ref args);
             if (args.Length > 0)
             {
                 if (int.TryParse(args[0],out var port))

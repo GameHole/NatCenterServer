@@ -6,7 +6,7 @@ namespace RouteClient
     {
         static void Main(string[] args)
         {
-            ForTest(ref args);
+            //ForTest(ref args);
             if (args.Length > 3)
             {
                 LocalServer server = new LocalServer();

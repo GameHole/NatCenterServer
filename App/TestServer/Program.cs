@@ -3,7 +3,7 @@ using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
-
+using System.Collections.Generic;
 namespace TestServer
 {
     struct TestMsg:IBytes
@@ -16,10 +16,17 @@ namespace TestServer
     }
     class TEstA : ADealer<TestMsg>
     {
+        Dictionary<EndPoint, int> ds = new Dictionary<EndPoint, int>();
+        int seed;
         protected override void Deal(SimpleUdpServce socket, EndPoint remote, TestMsg value)
         {
+            if(!ds.TryGetValue(remote,out var id))
+            {
+                ds.Add(remote, ++seed);
+            }
+
             socket.Send(new TestMsgB() { a = value.a +1 }, remote);
-            Console.WriteLine(value.a);
+            Console.WriteLine($"recv id::{id} v::{value.a}");
         }
     }
     class Program

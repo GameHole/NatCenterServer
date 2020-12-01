@@ -46,10 +46,12 @@ namespace NatCore
                     if(se.SocketErrorCode == SocketError.ConnectionReset)
                     {
                         isRun = false;
+                        continue;
                     }
                     if (se.SocketErrorCode == SocketError.Interrupted)
                     {
                         isRun = false;
+                        continue;
                     }
                     Console.WriteLine(se);
                 }
