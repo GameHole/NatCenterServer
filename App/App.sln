@@ -13,11 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NatUdpClient", "NatUdpClien
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouteCenter", "L4dRotueServer\RouteCenter.csproj", "{E3115ECE-CC4F-43DC-A1C6-20FD82E5B402}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteClient", "RouteClient\RouteClient.csproj", "{0083BBCD-CE23-4F69-AA4B-4F82D05D3F5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouteClient", "RouteClient\RouteClient.csproj", "{0083BBCD-CE23-4F69-AA4B-4F82D05D3F5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestServer", "TestServer\TestServer.csproj", "{24B5E0F7-14A0-487F-9EDE-B60D7DDEC32E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestServer", "TestServer\TestServer.csproj", "{24B5E0F7-14A0-487F-9EDE-B60D7DDEC32E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "TestClient\TestClient.csproj", "{E2F766C9-9BD7-4265-AA2B-99235E199BCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestClient", "TestClient\TestClient.csproj", "{E2F766C9-9BD7-4265-AA2B-99235E199BCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

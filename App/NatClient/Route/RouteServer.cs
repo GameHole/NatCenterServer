@@ -78,6 +78,8 @@ namespace NatCore
         {
             this.serverPoint = serverPoint;
             this.port = port;
+            init();
+            isRun = true;
         }
         void init()
         {
@@ -87,25 +89,25 @@ namespace NatCore
             client2id = new Dictionary<EndPoint, int>();
             Console.WriteLine($"route start at port {port}");
         }
-        public async void Start()
+        public async void Recv()
         {
-            init();
-            isRun = true;
-            byte[] buffer = new byte[1024 * 8];
-            while (isRun)
+            if (isRun)
             {
                 try
                 {
                     await Task.Factory.StartNew(() =>
                     {
-                        EndPoint endp = new IPEndPoint(IPAddress.Any, 0);
                         if(socket.Available<=0)
                         {
                             Thread.Sleep(1);
+                            Recv();
                             return;
                         }
+                        byte[] buffer = new byte[1024 * 4];
+                        EndPoint endp = new IPEndPoint(IPAddress.Any, 0);
                         int n = socket.ReceiveFrom(buffer, headOffset, buffer.Length - headOffset, SocketFlags.None, ref endp);
-                        Console.WriteLine($"RouteServer:: Recv { Encoding.ASCII.GetString(buffer, 0, n)} remote = {endp} ");
+                        Recv();
+                        //Console.WriteLine($"RouteServer:: Recv { Encoding.ASCII.GetString(buffer, 0, n)} remote = {endp} ");
                         if (endp.eq(serverPoint))
                         {
                             int idx = headOffset;
@@ -159,9 +161,12 @@ namespace NatCore
                     Console.WriteLine(e);
                 }
             }
-            Console.WriteLine("RouteServer:: Over");
-            socket.Close();
-            socket.Dispose();
+            else
+            {
+                Console.WriteLine("RouteServer:: Over");
+                socket.Close();
+                socket.Dispose();
+            }
         }
 
         public void Dispose()

@@ -74,7 +74,7 @@ namespace NatCore
                         socket.SendTo(header.ToByteArray(), end);
                         if (routes.ContainsKey(end)) continue;
                         var rout = new RouteServer(end, header.port);
-                        rout.Start();
+                        rout.Recv();
                         catches.Add(end);
                         routes.Add(end, rout);
                     }
