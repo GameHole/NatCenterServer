@@ -34,7 +34,6 @@ namespace NatCore
             byte[] connect = new ServerHeader() { header = Header.ReqConnect, port = port }.ToByteArray();
             while (!isRunTick)
             {
-
                 socket.SendTo(connect, remoteEnd);
                 await Task.Delay(10);
             }
@@ -45,39 +44,56 @@ namespace NatCore
 
             while (true)
             {
-                if (!isRunTick)
+                try
                 {
-                    await Task.Delay(10);
-                    continue;
+                    //if (!isRunTick)
+                    //{
+                    //    await Task.Delay(10);
+                    //    continue;
+                    //}
+                    //Console.WriteLine("send tick");
+                    socket.SendTo(tick, remoteEnd);
+                    await Task.Delay(100);
                 }
-                socket.SendTo(tick, remoteEnd);
-                await Task.Delay(500);
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                }
+                
             }
         }
         async void ClearUnuseClient()
         {
             while (true)
             {
-                for (int i = catckes.Count - 1; i >= 0; i--)
+                try
                 {
-                    var key = catckes[i];
-                    if (clients.TryGetValue(key, out var cl))
+                    for (int i = catckes.Count - 1; i >= 0; i--)
                     {
-                        cl.tickCount += 10;
-                        if (cl.tickCount >= 20000)
+                        var key = catckes[i];
+                        if (clients.TryGetValue(key, out var cl))
                         {
-                            clients.Remove(key);
+                            cl.tickCount += 10;
+                            if (cl.tickCount >= 20000)
+                            {
+                                clients.Remove(key);
+                                catckes.Remove(key);
+                                if (cl.isRun)
+                                    cl.Dispose();
+                            }
+                        }
+                        else
+                        {
                             catckes.Remove(key);
-                            if (cl.isRun)
-                                cl.Dispose();
                         }
                     }
-                    else
-                    {
-                        catckes.Remove(key);
-                    }
+                    await Task.Delay(10);
                 }
-                await Task.Delay(10);
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                }
+                
             }
         }
         void Recv()
@@ -85,51 +101,70 @@ namespace NatCore
             byte[] buffer = new byte[8 * 1024];
             while (true)
             {
-                EndPoint end = new IPEndPoint(IPAddress.Any, 0);
-                int n = socket.ReceiveFrom(buffer, ref end);
-                //Console.WriteLine($"RouteServer:: Recv { Encoding.ASCII.GetString(buffer, 0, n)} remote = {end} ");
-                int idx = 0;
-                if (buffer.TryGet(ref idx, out Header header))
+                try
                 {
-                    if (header.mask == Header.MASK)
+                    EndPoint end = new IPEndPoint(IPAddress.Any, 0);
+                    int n = socket.ReceiveFrom(buffer, ref end);
+                    //Console.WriteLine($"RouteServer:: Recv { Encoding.ASCII.GetString(buffer, 0, n)} remote = {end} ");
+                    int idx = 0;
+                    if (buffer.TryGet(ref idx, out Header header))
                     {
-                        if (remoteEnd.eq(end))
+                        if (header.mask == Header.MASK)
                         {
-                            if (header.opcode == Header.ResConnect.opcode)
-                            {                
-                                Console.WriteLine("LocalServer connected");
-                                buffer.TryGet(ref idx, out int port);
-                                (remoteEnd as IPEndPoint).Port = port;
-                                isRunTick = true;
-                            }
-                            else if (header.opcode == Header.MSG.opcode)
+                            if (remoteEnd.eq(end))
                             {
-                                if(buffer.TryGet(ref idx, out int cid))
+                                if (header.opcode == Header.ResConnect.opcode)
                                 {
-                                    if(!clients.TryGetValue(cid,out var client))
+                                    Console.WriteLine("LocalServer connected");
+                                    buffer.TryGet(ref idx, out int port);
+                                    (remoteEnd as IPEndPoint).Port = port;
+                                    isRunTick = true;
+                                }
+                                else if (header.opcode == Header.MSG.opcode)
+                                {
+                                    if (buffer.TryGet(ref idx, out int cid))
                                     {
-                                        client = new LocalClient(cid, gameEnd, localEnd);
-                                        client.Start();
-                                        clients.Add(cid, client);
-                                        catckes.Add(cid);
-                                    }
-                                    if (client.isRun)
-                                    {
-                                        client.tickCount = 0;
-                                        //Console.WriteLine($"RouteServer::size = {SizeOf<RouteHeader>.value} idx= {idx} cid = {cid}");
-                                        buffer.TryGet(idx, out int mask);
-                                        //Console.WriteLine($"RouteServer:: byffer = {buffer.ToHexStr()}");
-                                        client.socket.SendTo(buffer, idx, n - idx, SocketFlags.None, gameEnd);
+                                        if (!clients.TryGetValue(cid, out var client))
+                                        {
+                                            client = new LocalClient(cid, gameEnd, localEnd);
+                                            client.Start();
+                                            clients.Add(cid, client);
+                                            catckes.Add(cid);
+                                        }
+                                        if (client.isRun)
+                                        {
+                                            client.tickCount = 0;
+                                            //Console.WriteLine($"RouteServer::size = {SizeOf<RouteHeader>.value} idx= {idx} cid = {cid}");
+                                            buffer.TryGet(idx, out int mask);
+                                            //Console.WriteLine($"RouteServer:: byffer = {buffer.ToHexStr()}");
+                                            client.socket.SendTo(buffer, idx, n - idx, SocketFlags.None, gameEnd);
+                                        }
                                     }
                                 }
                             }
-                        }
-                        else
-                        {
-                            socket.SendTo(buffer, 0, n, SocketFlags.None, remoteEnd);
+                            else
+                            {
+                                socket.SendTo(buffer, 0, n, SocketFlags.None, remoteEnd);
+                            }
                         }
                     }
                 }
+                catch (SocketException se)
+                {
+                    Console.WriteLine(se);
+                    if (se.SocketErrorCode == SocketError.ConnectionReset)
+                    {
+                        continue;
+                    }
+                    if (se.SocketErrorCode == SocketError.Interrupted)
+                    {
+                        continue;
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                }                
             }
         }
     }

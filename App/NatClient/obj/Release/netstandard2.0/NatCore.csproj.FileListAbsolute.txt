@@ -6,3 +6,12 @@ E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\bin\Release\netsta
 E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\obj\Release\netstandard2.0\NatCore.dll
 E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\obj\Release\netstandard2.0\NatCore.pdb
 E:\WorkSpace\unityProjects\Gits\NatCenterServer\App\NatClient\obj\Release\netstandard2.0\NatCore.csprojAssemblyReference.cache
+D:\gits\NatCenterServer\App\NatClient\bin\Release\netstandard2.0\NatCore.deps.json
+D:\gits\NatCenterServer\App\NatClient\bin\Release\netstandard2.0\NatCore.dll
+D:\gits\NatCenterServer\App\NatClient\bin\Release\netstandard2.0\NatCore.pdb
+D:\gits\NatCenterServer\App\NatClient\obj\Release\netstandard2.0\NatCore.csprojAssemblyReference.cache
+D:\gits\NatCenterServer\App\NatClient\obj\Release\netstandard2.0\NatCore.AssemblyInfoInputs.cache
+D:\gits\NatCenterServer\App\NatClient\obj\Release\netstandard2.0\NatCore.AssemblyInfo.cs
+D:\gits\NatCenterServer\App\NatClient\obj\Release\netstandard2.0\NatCore.csproj.CoreCompileInputs.cache
+D:\gits\NatCenterServer\App\NatClient\obj\Release\netstandard2.0\NatCore.dll
+D:\gits\NatCenterServer\App\NatClient\obj\Release\netstandard2.0\NatCore.pdb

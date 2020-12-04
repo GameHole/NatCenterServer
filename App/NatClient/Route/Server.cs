@@ -6,6 +6,7 @@ using System.Net.Sockets;
 using System.Text;
 using NatCore;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace NatCore
 {
@@ -34,8 +35,10 @@ namespace NatCore
                         var key = catches[i];
                         if (routes.TryGetValue(key, out var route))
                         {
-                            route.tickCount += 10;
-                            if (route.tickCount >= 1000)
+                            int tick = Interlocked.Add(ref route.tickCount, 10);
+                            //Console.WriteLine($"Server:: tick = {tick}");
+
+                            if (tick >= 1000)
                             {
                                 routes.Remove(key);
                                 catches.Remove(key);

@@ -1,0 +1,7 @@
+D:\gits\NatCenterServer\RouteServer\RouteCenter.exe
+D:\gits\NatCenterServer\RouteServer\RouteCenter.dll
+D:\gits\NatCenterServer\RouteServer\RouteCenter.deps.json
+D:\gits\NatCenterServer\RouteServer\RouteCenter.runtimeconfig.json
+D:\gits\NatCenterServer\RouteServer\RouteCenter.pdb
+D:\gits\NatCenterServer\RouteServer\NatCore.dll
+D:\gits\NatCenterServer\RouteServer\NatCore.pdb

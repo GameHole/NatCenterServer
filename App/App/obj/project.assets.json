@@ -704,23 +704,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\lenovo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WorkSpace\\unityProjects\\Gits\\NatCenterServer\\App\\App\\NatCenter.csproj",
+      "projectUniqueName": "D:\\gits\\NatCenterServer\\App\\App\\NatCenter.csproj",
       "projectName": "NatCenter",
-      "projectPath": "E:\\WorkSpace\\unityProjects\\Gits\\NatCenterServer\\App\\App\\NatCenter.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\WorkSpace\\unityProjects\\Gits\\NatCenterServer\\App\\App\\obj\\",
+      "projectPath": "D:\\gits\\NatCenterServer\\App\\App\\NatCenter.csproj",
+      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+      "outputPath": "D:\\gits\\NatCenterServer\\App\\App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -732,9 +732,10 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "projectReferences": {
-            "E:\\WorkSpace\\unityProjects\\Gits\\NatCenterServer\\App\\NatClient\\NatCore.csproj": {
-              "projectPath": "E:\\WorkSpace\\unityProjects\\Gits\\NatCenterServer\\App\\NatClient\\NatCore.csproj"
+            "D:\\gits\\NatCenterServer\\App\\NatClient\\NatCore.csproj": {
+              "projectPath": "D:\\gits\\NatCenterServer\\App\\NatClient\\NatCore.csproj"
             }
           }
         }
@@ -747,6 +748,7 @@
     },
     "frameworks": {
       "netcoreapp2.1": {
+        "targetAlias": "netcoreapp2.1",
         "dependencies": {
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
@@ -765,7 +767,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

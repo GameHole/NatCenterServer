@@ -1,0 +1,16 @@
+D:\gits\NatCenterServer\App\TestClient\bin\Debug\netcoreapp3.1\TestClient.exe
+D:\gits\NatCenterServer\App\TestClient\bin\Debug\netcoreapp3.1\TestClient.deps.json
+D:\gits\NatCenterServer\App\TestClient\bin\Debug\netcoreapp3.1\TestClient.runtimeconfig.json
+D:\gits\NatCenterServer\App\TestClient\bin\Debug\netcoreapp3.1\TestClient.runtimeconfig.dev.json
+D:\gits\NatCenterServer\App\TestClient\bin\Debug\netcoreapp3.1\TestClient.dll
+D:\gits\NatCenterServer\App\TestClient\bin\Debug\netcoreapp3.1\TestClient.pdb
+D:\gits\NatCenterServer\App\TestClient\bin\Debug\netcoreapp3.1\NatCore.dll
+D:\gits\NatCenterServer\App\TestClient\bin\Debug\netcoreapp3.1\NatCore.pdb
+D:\gits\NatCenterServer\App\TestClient\obj\Debug\netcoreapp3.1\TestClient.csprojAssemblyReference.cache
+D:\gits\NatCenterServer\App\TestClient\obj\Debug\netcoreapp3.1\TestClient.AssemblyInfoInputs.cache
+D:\gits\NatCenterServer\App\TestClient\obj\Debug\netcoreapp3.1\TestClient.AssemblyInfo.cs
+D:\gits\NatCenterServer\App\TestClient\obj\Debug\netcoreapp3.1\TestClient.csproj.CoreCompileInputs.cache
+D:\gits\NatCenterServer\App\TestClient\obj\Debug\netcoreapp3.1\TestClient.csproj.CopyComplete
+D:\gits\NatCenterServer\App\TestClient\obj\Debug\netcoreapp3.1\TestClient.dll
+D:\gits\NatCenterServer\App\TestClient\obj\Debug\netcoreapp3.1\TestClient.pdb
+D:\gits\NatCenterServer\App\TestClient\obj\Debug\netcoreapp3.1\TestClient.genruntimeconfig.cache

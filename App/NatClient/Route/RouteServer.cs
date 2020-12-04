@@ -103,7 +103,7 @@ namespace NatCore
                             Recv();
                             return;
                         }
-                        byte[] buffer = new byte[1024 * 4];
+                        byte[] buffer = new byte[1024 * 16];
                         EndPoint endp = new IPEndPoint(IPAddress.Any, 0);
                         int n = socket.ReceiveFrom(buffer, headOffset, buffer.Length - headOffset, SocketFlags.None, ref endp);
                         Recv();
@@ -111,14 +111,19 @@ namespace NatCore
                         if (endp.eq(serverPoint))
                         {
                             int idx = headOffset;
+                            
                             if (buffer.TryGet(ref idx, out RouteHeader header))
                             {
+                                //Console.WriteLine("header " + header.header.opcode);
                                 if (Header.TICK == header.header)
                                 {
                                     tickCount = 0;
+                                    //Interlocked.Exchange(ref tickCount, 0);
                                 }
                                 else if (Header.MSG == header.header)
                                 {
+                                    tickCount = 0;
+                                   // Interlocked.Exchange(ref tickCount, 0);
                                     if (id2client.TryGetValue(header.cid, out var point))
                                     {
                                         socket.SendTo(buffer, idx, n - headOffset, SocketFlags.None, point);
@@ -134,11 +139,11 @@ namespace NatCore
                                 client2id.Add(endp, cid);
                                 id2client.Add(cid, endp);
                             }
-                            //Console.WriteLine($"RouteServer orgion:: {buffer.ToHexStr()}");
+                            //Console.WriteLine($"RouteServer orgion:: {buffer.ToHexStr(0, n)}");
                             var header = new RouteHeader() { header = Header.MSG, cid = cid };
                             int id = 0;
                             buffer.TrySet(ref id, header);
-                            //Console.WriteLine($"RouteServer after:: {buffer.ToHexStr()}");
+                            //Console.WriteLine($"RouteServer after:: {buffer.ToHexStr(0, n)}");
                             socket.SendTo(buffer, 0, n + headOffset, SocketFlags.None, serverPoint);
                         }
                     }).ConfigureAwait(false);
